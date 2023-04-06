@@ -5,7 +5,7 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
         System.out.println("Olá!Com Esse programa é possível saber a localização " +
-                "da queda de um ou mais meteoritos em um área retangular");
+                "da queda de um ou mais meteoritos em uma área retangular");
 
 
         int contT = 1;
@@ -18,7 +18,7 @@ public class Main {
             int x2 = -1;
             int y2 = -1;
 
-            System.out.println("Para comecar, digite uma coordenada de 0 até 10000 para medirmos " +
+            System.out.println("Para comecar, digite o primeiro numero do par da primeira coordenada, um que vai de 0 até 10000, para medirmos " +
                     "uma das partes da área atingida");
 
             if (x1 == -1) {
@@ -26,7 +26,7 @@ public class Main {
                     x1 = entrada.nextInt();
                 }
             }
-            System.out.println("Agora digite outra:");
+            System.out.println("Agora digite outro:");
 
             if (y1 == -1) {
                 while (y1 > 10000 || y1 < 0) {
@@ -38,14 +38,14 @@ public class Main {
 
             if (x2 == -1) {
                 while (x2 > 10000 || x2 < 0 || x2 < x1) {
-                    System.out.println("Não pode ser um numero maior que o primeiro digitado, hein");
+                    System.out.println("Não pode ser um numero MENOR que o primeiro digitado do primeiro par de coordenada, hein");
                     x2 = entrada.nextInt();
                 }
             }
             System.out.println("Agora digite outra:");
             if (y2 == -1) {
                 while (y2 > 10000 || y2 < 0 || y2 > y1) {
-                    System.out.println("Não pode ser um numero maior que o digitado agora pouco,hein");
+                    System.out.println("Não pode ser um numero MAIOR que o segundo digitado do primeiro par de coordenada,hein");
                     y2 = entrada.nextInt();
                 }
             }
@@ -65,23 +65,24 @@ public class Main {
             for (int i = 1; i <= N; i++) {
 
                 int X = -1;
-                System.out.println("digite a primeira coordenada do meteorito:");
+                System.out.println("digite o primeiro numero do par da coordenada do meteorito:");
                 while (X > 10000 || X < 0) {
-                    System.out.println("Lembrando que a coordenada não pode ser maior que 10000 ou negativo , hein");
+                    System.out.println("Lembrando que o numero não pode ser maior que 10000 ou negativo , hein");
                     X = entrada.nextInt();
                 }
-                System.out.println("digite a outra: ");
+                System.out.println("digite o outro: ");
                 int Y = -1;
                 while (Y > 10000 || Y < 0) {
-                    System.out.println("Lembrando que a coordenada não pode ser maior que 10000 ou negativo,hein");
+                    System.out.println("Lembrando que o numero não pode ser maior que 10000 ou negativo , hein");
                     Y = entrada.nextInt();
                 }
-                if ((X >= x1 || X >= x2) && (Y >= y1 || Y >= y2)) {
+                if ((X >= x1 && X <= x2 || X >= x2 && X <= x1) && (Y >= y1 && Y <= y2 ||Y >= y2 && Y <= y1 )) {
                     quedas++;
                 }
 
 
             }
+            System.out.println("");
             System.out.println("Teste " + contT++);
             System.out.println(quedas + "\n");
         }
