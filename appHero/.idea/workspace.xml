@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fd872c1-9097-4dd2-ae3c-fcd0851be6f5" name="Changes" comment="" />
+    <list default="true" id="5603736e-4b86-47c7-9d5a-62806f38a49f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +18,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2PzNdIGTDpHpKh6zkJrCaNAfcFv" />
+  <component name="ProjectId" id="2PLcG8uG4KW51u8xwMSZnT0kh0d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,15 +28,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "C:/Users/danillo.iblima/Documents/GitHub/POO/Ipva/src/Main.java"
+    "last_opened_file_path": "C:/Users/danillo.iblima/Documents/GitHub/POO/appHero",
+    "onboarding.tips.debug.path": "C:/Users/danillo.iblima/Documents/GitHub/POO/appHero/src/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Ipva" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,11 +50,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fd872c1-9097-4dd2-ae3c-fcd0851be6f5" name="Changes" comment="" />
-      <created>1684456038721</created>
+      <changelist id="5603736e-4b86-47c7-9d5a-62806f38a49f" name="Changes" comment="" />
+      <created>1683239712308</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684456038721</updated>
+      <updated>1683239712308</updated>
     </task>
     <servers />
   </component>
